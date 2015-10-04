@@ -11,4 +11,7 @@ puts "Enter Your last name:"
 last_name = gets.chomp
 
 puts 'Hey ' + first_name + ' ' + middle_name + ' ' + last_name + ' is very nice to meet you'
-
+print "Enter your favorite number: "
+num = gets.chomp.to_i
+bigger = num + 1
+puts "Now, your bigger favorite number is #{bigger}"
