@@ -25,3 +25,11 @@ puts 'Enter your last name:'
 l_name = gets.chomp
 length_total = f_name + l_name
 puts 'The length of your name is ' + length_total.length.to_s + '!'
+
+letters = 'aAbBcCdDeE'
+puts letters.upcase
+puts letters.downcase
+puts letters.swapcase
+puts letters.capitalize
+puts ' a'.capitalize
+puts letters
