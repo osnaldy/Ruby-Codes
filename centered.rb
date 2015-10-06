@@ -12,3 +12,7 @@ puts (str.ljust(line_width1))
 puts (str.center(line_width1))
 puts (str.rjust(line_width1))
 puts (str.ljust(line_width1/2) + str.rjust(line_width1/2))
+
+puts 'What Do You Want'
+w = gets.chomp
+puts 'WHADDAYA MEAN ' + w.upcase + '?!? ' + 'YOUR FIRE!!'
