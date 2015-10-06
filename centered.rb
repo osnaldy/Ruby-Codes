@@ -16,3 +16,17 @@ puts (str.ljust(line_width1/2) + str.rjust(line_width1/2))
 puts 'What Do You Want'
 w = gets.chomp
 puts 'WHADDAYA MEAN ' + w.upcase + '?!? ' + 'YOUR FIRE!!'
+
+table_width = 40
+puts ('Tables of Contents'.center(table_width))
+str1 = 'Chapter 1:  Getting Started'
+str11 = 'page  1'
+str2 = 'Chapter 2:  Numbers'
+str22 = 'page  9'
+str3 = 'Chapter 3:  Letters'
+str33 = 'page  13'
+
+puts ''
+puts (str1.ljust(table_width) + str11)
+puts (str2.ljust(table_width) + str22)
+puts (str3.ljust(table_width) + str33)
