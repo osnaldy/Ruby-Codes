@@ -1,8 +1,9 @@
-input = ''
-
-while input.downcase != 'bye'
-	puts input
-	input = gets.chomp
+while true
+	inp = gets.chomp
+	puts inp
+	if inp == 'bye'
+		break
+	end
 end
 
-puts 'OK bye!! Come again soon!'
+puts 'come again Soon'
