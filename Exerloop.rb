@@ -5,5 +5,5 @@ while count != 0
 	puts 'Take one down and pass it around, ' + (count -1).to_s + ' bottles of beer on the wall.!'
 	puts ''
 count -= 1
-
 end
+puts 'no more bottles to put on the wall'
