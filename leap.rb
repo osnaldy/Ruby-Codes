@@ -15,6 +15,7 @@ else
 			puts start.to_s + ' It is a leap'
 			start = start.to_i + 1
 		end
+			puts start.to_s + ' Not a leap year'
 			start = start.to_i + 1
 	end
 end
