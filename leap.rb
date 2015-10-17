@@ -12,10 +12,10 @@ if finish.to_i < start.to_i
 else
 	while start.to_i < finish.to_i
 		while (start.to_i % 4 == 0 && start.to_i % 100 != 0) || (start.to_i % 400 == 0)
-			puts start.to_s + ' It is a leap'
+			puts start.to_s + ' This is a leap'
 			start = start.to_i + 1
 		end
-			puts start.to_s + ' Not a leap year'
+			puts start.to_s + ' This is not a leap year'
 			start = start.to_i + 1
 	end
 end
