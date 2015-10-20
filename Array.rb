@@ -4,3 +4,12 @@ puts
 puts name[0]
 puts name[1]
 puts name[2]
+puts
+
+other_peeps = []
+other_peeps [3] = 'beebee Meaner'
+other_peeps [0] = 'Ah-Ha'
+other_peeps [1] = 'Seedee'
+other_peeps [0] = 'beebee Ah-Ha'
+
+puts other_peeps
