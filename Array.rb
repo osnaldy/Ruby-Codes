@@ -1,20 +1,3 @@
-name = ['Ada', 'Osnaldy', 'Osneily']
-puts name
-puts
-puts name[0]
-puts name[1]
-puts name[2]
-puts
-
-other_peeps = []
-other_peeps [3] = 'beebee Meaner'
-other_peeps [0] = 'Ah-Ha'
-other_peeps [1] = 'Seedee'
-other_peeps [0] = 'beebee Ah-Ha'
-
-puts other_peeps
-puts
-
 languages = ['English', 'Norwegian', 'Ruby']
 languages.each do |lang|
 	puts 'I love ' + lang + '!'
@@ -23,3 +6,26 @@ end
 
 puts 'And let\'s hear it for java!'
 puts '<crickets chirp in the distance>'
+
+3.times do
+puts 'Hello Brother!'
+end
+
+2.times do
+puts '...You can say that again'
+end
+puts
+
+foods = ['artichoke', 'brioche', 'caramel']
+
+puts foods
+puts
+puts foods.to_s
+puts
+puts foods.join(', ')
+puts 
+puts foods.join('  :)   ') + '	 8)'
+
+200.times do
+	puts []
+end
