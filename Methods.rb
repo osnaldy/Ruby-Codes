@@ -21,3 +21,8 @@ end
 
 little_pest tough_var
 puts tough_var
+
+def square x
+puts (x * x)
+end
+square 5
