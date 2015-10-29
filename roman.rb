@@ -56,4 +56,9 @@ def compare num
   puts letter
 end
 
-compare 400
+def enter_num
+  puts 'Enter the number to be converted:'
+  num1 = gets.chomp.to_i  
+end
+
+compare enter_num
