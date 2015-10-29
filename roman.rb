@@ -58,7 +58,13 @@ end
 
 def enter_num
   puts 'Enter the number to be converted:'
-  num1 = gets.chomp.to_i  
+  num1 = gets.chomp.to_i
+
+    if num1 < 1 || num1 > 3999
+    puts 'number can\'t be smaller than "1" or greater than "3999"' 
+    num1 = gets.chomp.to_i  
+  end
+  return num1
 end
 
 compare enter_num
