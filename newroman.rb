@@ -102,6 +102,7 @@ def enter_num
 
     if num1 < 1 || num1 > 3999
     puts 'number can\'t be smaller than "1" or greater than "3999"' 
+    puts 'Re-Enter the number to be converted:'
     num1 = gets.chomp.to_i  
   end
   return num1
