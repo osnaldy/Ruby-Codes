@@ -23,11 +23,14 @@ def reverse_append(ary1, n1)
 
 end
 puts reverse_append [], 4
+puts
 
 def fib n2
 	return 0 if n2 == 0
 	return 1 if n2 == 1
 	fib(n2-1) + fib(n2-2)
 end
-
-puts fib 10
+puts 'print Fibonacci sequence'
+(0..10).each do |i|
+puts fib(i)
+end
