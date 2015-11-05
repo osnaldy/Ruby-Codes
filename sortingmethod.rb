@@ -12,11 +12,11 @@ def recursive_sort unsorted_array, sorted_array
 		#check all the element of the unsorted array 
 		#and push the smallest value to the end of 
 		#the sorted array
-	else 
-		return unsorted_array		
+	else
+		return unsorted_array
 	end
 end
 
-arr = [2,4,5,1]
+arr = ['osnaldy',4,5,1]
 
 puts sort arr
