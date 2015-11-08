@@ -10,14 +10,13 @@ def recursive_sort unsorted_array, sorted_array
 		return
 
 	else
-		minor = unsorted_array[0]
+		largest = unsorted_array[0]
 		for i in 0...unsorted_array.size
-			if unsorted_array[i] < minor
-				minor = unsorted_array[i]
-				
+			if unsorted_array[i] > largest
+				largest = unsorted_array[i]
 			end
 		end
-			return minor
+			return largest
 	end
 end
 
